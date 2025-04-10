@@ -1,3 +1,3 @@
 FROM almalinux:9
-LABEL author = "Venkat" \
-      company = "HCL"
+LABEL author="Venkat" \
+      company="HCL"
