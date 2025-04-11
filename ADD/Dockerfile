@@ -1,4 +1,4 @@
-FROM alamalinux:9
+FROM almalinux:9
 RUN dnf install nginx -y
 RUN rm -rf /usr/share/nginx/html/index.html
 ADD index.html /usr/share/nginx/html/index.html
